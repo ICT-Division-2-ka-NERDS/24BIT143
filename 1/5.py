@@ -1,0 +1,6 @@
+a = float(input("Enter number 1:"))
+b = float(input("Enter number 2:"))
+print("Their sum is:",a+b)
+print("Their difference is:",a-b)
+print("Their product is:",a*b)
+print("Their division is",a/b)
