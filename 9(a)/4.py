@@ -1,5 +1,9 @@
-lst = ['madam', 'Python', "malayalam", 12321]
+def isp(i):
+    if type(i) == str and i == i[::-1]:
+        return True
+    else:
+        return False
 
-for item in lst:
-    if isinstance(item, str) and item == item[::-1]:
-        print(item)
+lst = ['madam','Python',"malayalam",12321]
+t = list(filter(isp, lst))
+print(t)
